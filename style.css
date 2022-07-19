@@ -2,11 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
 
 /******** Common Style ********/
-*{
+* {
     margin: 0;
     padding: 0;
-    }
-main{
+}
+
+main {
     width: 85%;
     margin: auto;
     font-family: 'Mukta', sans-serif;
@@ -15,7 +16,7 @@ main{
 /***************     Header Section     ***************/
 /***************     Header Section     ***************/
 
-header{
+header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -24,23 +25,27 @@ header{
     padding-top: 25px;
     border-radius: 20px;
 }
-.header-title-sec{
+
+.header-title-sec {
     margin: 5vw;
 }
-.header-title-sec h1{
+
+.header-title-sec h1 {
     font-size: 70px;
     font-weight: 700;
     line-height: 65px;
     margin-bottom: 20px;
     color: white;
 }
-.header-title-sec p{
+
+.header-title-sec p {
     font-size: 16px;
     line-height: 26px;
     margin-bottom: 30px;
     color: #FFFFFF;
 }
-.title-btn{
+
+.title-btn {
     font-size: 14px;
     line-height: 26px;
     margin-bottom: 30px;
@@ -51,23 +56,27 @@ header{
     align-items: center;
     transition: .5s;
 }
-.title-btn a{
+
+.title-btn a {
     text-decoration: none;
     color: white;
 }
-.fa-chevron-right{
+
+.fa-chevron-right {
     color: white;
     margin-left: 10px;
 }
-.header-img-sec{
+
+.header-img-sec {
     margin: 0 5vw;
 }
-.header-img-sec img{
+
+.header-img-sec img {
     width: 100%;
     margin-bottom: 0;
 }
 
-.title-btn:hover{
+.title-btn:hover {
     background-color: red;
     transition: .5s;
 }
@@ -75,14 +84,14 @@ header{
 
 /***************     Middle Section     ***************/
 /***************     Middle Section     ***************/
-.middle-sec{
+.middle-sec {
     margin-top: 100px;
     display: grid;
     grid-template-columns: 315px 1fr;
 }
 
-/*********   Left Card ***********/
-.left-card-box{
+/******************   Left Card     ******************/
+.left-card-box {
     height: 315px;
     background-color: #161616;
     border-radius: 10px;
@@ -92,61 +101,151 @@ header{
     justify-content: center;
     margin: auto;
 }
-.card-button{
+
+.card-button {
     margin: auto;
-    padding: 10px 70px;
+    width: 240px;
+    height: 50px;
     background-color: white;
     border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.card-button a{
+
+.card-button a {
     font-size: 20;
     font-weight: 600;
     text-decoration: none;
-    color:#161616;
+    color: #161616;
 }
-.card-button:hover a{
+
+.card-button:hover a {
     color: red;
 }
 
-/*********   Right Card ***********/
-.right-card-parent{
+
+
+/* This will change ++++++++++++++++++*/
+/* This will change ++++++++++++++++++*/
+.blog {
+    background-color: red;
+    color: white
+}
+
+.blog:hover a {
+    color: white;
+}
+
+
+/**********************************/
+/**********************************/
+.view-for-tablet{
+
+    display: none;
+
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.view-for-tablet h3{
+    margin: auto;
+    width: 120px;
+    font-weight: 500;
+    color:white;
+    background-color: red;
+    border-radius: 5px;
+}
+
+footer{
+    margin-top: 130px;
+}
+
+/* This will change ++++++++++++++++++*/
+/* This will change ++++++++++++++++++*/
+
+
+
+/*******************   Right Card    *****************/
+.right-card-parent {
     margin-left: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
 }
-.right-card-one{
-    /* width: 315px; */
+
+.right-card-one {
     border: 1px solid #b3b3b3;
     border-radius: 12px;
 }
-.right-card-one img{
+
+.right-card-one img {
     width: 100%;
 }
-.card-info{
+
+.card-info {
     margin-left: 20px;
 }
-.transfer{
+
+.transfer {
     margin: 20px 0 15px 0;
 }
-.transfer a{
+
+.transfer a {
     text-decoration: none;
-    color:#161616;
+    color: #161616;
     padding: 0 20px;
     border: 1px solid #161616;
     border-radius: 5px;
 }
-.card-info h3{
+
+.card-info h3 {
     font-size: 18px;
     font-weight: 600;
     line-height: 27px;
 }
-.card-icon-sec{
+
+.card-icon-sec {
     margin: 20px 0;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
-.card-icon-sec p{
+
+.card-icon-sec p {
     font-size: 13px;
-    color:#424242;
+    color: #424242;
+}
+
+
+/***************     Footer Section     ***************/
+/***************     Footer Section     ***************/
+footer {
+    width: 100%;
+    height: 380px;
+    background-color: #161616;
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+}
+footer h1{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: white;
+}
+footer hr{
+    width: 85%;
+    margin: 0 auto;
+    border: 1px solid rgb(102, 102, 102);
+}
+.footer-icon{
+    margin: 50px auto 30px auto;
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    color: #B9B9B9;
+}
+.footer-social-icon3 a{
+    padding: 0 20px;
+    color:rgb(212, 211, 211);
+    font-size: 25px;
 }
