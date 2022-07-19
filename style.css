@@ -1,0 +1,31 @@
+/******** Common Style ********/
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 85%;
+    margin: auto;
+}
+
+/***************     Header Section     ***************/
+/***************     Header Section     ***************/
+
+header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    background-color: rgb(129, 136, 127);
+    margin-top: 30px;
+    padding-top: 25px;
+    border-radius: 20px;
+}
+.header-title-sec{
+    margin: 0 6vw;
+}
+.header-img-sec{
+    margin: 0 7vw;
+}
+.header-img-sec img{
+    width: 100%;
+}
