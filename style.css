@@ -1,11 +1,15 @@
+/* ******* fonts **************/
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
 /******** Common Style ********/
 *{
     margin: 0;
     padding: 0;
-}
+    }
 main{
     width: 85%;
     margin: auto;
+    font-family: 'Mukta', sans-serif;
 }
 
 /***************     Header Section     ***************/
@@ -15,17 +19,101 @@ header{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    background-color: rgb(129, 136, 127);
+    background-color: #161616;
     margin-top: 30px;
     padding-top: 25px;
     border-radius: 20px;
 }
 .header-title-sec{
-    margin: 0 6vw;
+    margin: 5vw;
+}
+.header-title-sec h1{
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 65px;
+    margin-bottom: 20px;
+    color: white;
+}
+.header-title-sec p{
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+}
+.title-btn{
+    font-size: 14px;
+    line-height: 26px;
+    margin-bottom: 30px;
+    background-color: #850af8;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    transition: .5s;
+}
+.title-btn a{
+    text-decoration: none;
+    color: white;
+}
+.fa-chevron-right{
+    color: white;
+    margin-left: 10px;
 }
 .header-img-sec{
-    margin: 0 7vw;
+    margin: 0 5vw;
 }
 .header-img-sec img{
     width: 100%;
+    margin-bottom: 0;
+}
+
+.title-btn:hover{
+    background-color: red;
+    transition: .5s;
+}
+
+
+/***************     Middle Section     ***************/
+/***************     Middle Section     ***************/
+.middle-sec{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 315px 1fr;
+
+    /* grid-template-rows: 315px minmax(); */
+}
+
+.left-card{
+    
+}
+
+.left-card-box{
+    height: 315px;
+    background-color: #161616;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.card-button{
+    margin: auto;
+    padding: 10px 70px;
+    background-color: white;
+    border-radius: 7px;
+}
+.card-button a{
+    font-size: 20;
+    font-weight: 600;
+    text-decoration: none;
+    color:#161616;
+}
+.card-button:hover a{
+    color: red;
+}
+
+.right-card{
+    background-color: antiquewhite;
+    /* height: 1000px; */
 }
