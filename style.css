@@ -15,15 +15,14 @@ main {
 
 /***************     Header Section     ***************/
 /***************     Header Section     ***************/
-
 header {
+    border-radius: 20px;
+    background-color: #161616;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    background-color: #161616;
     margin-top: 30px;
     padding-top: 25px;
-    border-radius: 20px;
 }
 
 .header-title-sec {
@@ -57,9 +56,13 @@ header {
     box-shadow: inset 0 0 0 0 red;
     background-color: #850af8;
 }
+
 .title-btn:hover {
-    box-shadow: inset 300px 0 0 0 red;
+    padding-left: 70px;
+    padding-right: 30px;
+    box-shadow: inset 220px 0 0 0 red;
     transition: ease-out 0.5s;
+
 }
 
 .title-btn a {
@@ -142,7 +145,7 @@ header {
 
 /**********************************/
 /**********************************/
-.view-for-tablet{
+.view-for-tablet {
 
     display: none;
 
@@ -151,16 +154,17 @@ header {
     margin-top: 50px;
     margin-bottom: 70px;
 }
-.view-for-tablet h3{
+
+.view-for-tablet h3 {
     margin: auto;
     width: 120px;
     font-weight: 500;
-    color:white;
+    color: white;
     background-color: red;
     border-radius: 5px;
 }
 
-footer{
+footer {
     margin-top: 130px;
 }
 
@@ -229,28 +233,118 @@ footer {
     text-align: center;
     font-family: 'Mukta', sans-serif;
 }
-footer h1{
+
+footer h1 {
     padding-top: 100px;
     padding-bottom: 50px;
     color: white;
 }
-footer hr{
+
+footer hr {
     width: 85%;
     margin: 0 auto;
     border: 1px solid rgb(102, 102, 102);
 }
+
 .footer-icon {
     margin: 50px auto 30px auto;
     width: 85%;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
 }
-.footer-icon a{
+
+.footer-icon a {
     text-decoration: none;
     color: #c2c2c2;
 }
-.footer-social-icon3 a{
+
+.footer-icon a:hover {
+    color: #ff0e0e;
+}
+
+.footer-social-icon3 a {
     padding: 0 20px;
-    color:rgb(212, 211, 211);
+    color: rgb(212, 211, 211);
     font-size: 25px;
+}
+
+.footer-social-icon3 a:hover {
+    color: rgb(193, 76, 240);
+}
+
+
+
+
+/***************     Media     ***************/
+/***************     Media     ***************/
+/***************     Media     ***************/
+
+
+/************** For Mobile **************/
+@media only screen and (max-width:767px) {
+
+    /************* Header Section ********************/
+    main {
+        width: 95%;
+    }
+    header {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+        margin-top: 15px;
+    }
+    .header-title-sec h1 {
+        font-size: 55px;
+    }
+
+    /************** Middle Section****************/
+    
+    .middle-sec {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .left-card-box {
+        height: 180px;
+        background-color: rgba(17, 102, 17, 0);
+        margin-bottom: 30px;
+    }
+
+    .card-button {
+        border: 1px solid rgb(219, 219, 219);
+        border-radius: 7px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right-card-parent {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+
+    /************** Footer Section****************/
+    footer {
+        width: 100%;
+        margin-top: 30px;
+        height: 490px;
+        background-color: #161616;
+        text-align: center;
+        font-family: 'Mukta', sans-serif;
+    }
+    footer h1 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .footer-icon {
+        margin: 20px auto 30px auto;
+        width: 85%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
 }
