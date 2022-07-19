@@ -79,14 +79,9 @@ header{
     margin-top: 100px;
     display: grid;
     grid-template-columns: 315px 1fr;
-
-    /* grid-template-rows: 315px minmax(); */
 }
 
-.left-card{
-    
-}
-
+/*********   Left Card ***********/
 .left-card-box{
     height: 315px;
     background-color: #161616;
@@ -113,7 +108,45 @@ header{
     color: red;
 }
 
-.right-card{
-    background-color: antiquewhite;
-    /* height: 1000px; */
+/*********   Right Card ***********/
+.right-card-parent{
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+.right-card-one{
+    /* width: 315px; */
+    border: 1px solid #b3b3b3;
+    border-radius: 12px;
+}
+.right-card-one img{
+    width: 100%;
+}
+.card-info{
+    margin-left: 20px;
+}
+.transfer{
+    margin: 20px 0 15px 0;
+}
+.transfer a{
+    text-decoration: none;
+    color:#161616;
+    padding: 0 20px;
+    border: 1px solid #161616;
+    border-radius: 5px;
+}
+.card-info h3{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+}
+.card-icon-sec{
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.card-icon-sec p{
+    font-size: 13px;
+    color:#424242;
 }
