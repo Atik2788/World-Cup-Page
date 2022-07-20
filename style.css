@@ -54,10 +54,9 @@ header {
 }
 
 .title-btn {
-    font-size: 14px;
-    line-height: 26px;
+    font-size: 20px;
     margin-bottom: 30px;
-    padding: 6px 20px;
+    padding: 15px 45px;
     border: none;
     border-radius: 5px;
     align-items: center;
@@ -67,9 +66,9 @@ header {
 }
 
 .title-btn:hover {
-    padding-left: 70px;
-    padding-right: 30px;
-    box-shadow: inset 220px 0 0 0 red;
+    padding-left: 150px;
+    padding-right: 60px;
+    box-shadow: inset 360px 0 0 0 red;
     transition: ease-out 0.5s;
 
 }
@@ -127,7 +126,7 @@ header {
 }
 
 .card-button a {
-    font-size: 20;
+    font-size: 20px;
     font-weight: 600;
     text-decoration: none;
     color: #161616;
@@ -146,7 +145,7 @@ header {
 }
 
 .right-card-one {
-    border: 1px solid #b3b3b3;
+    border: 1px solid #e7e6e6;
     border-radius: 12px;
 }
 
@@ -330,6 +329,13 @@ footer hr {
         display: block;
     }
 
+    .title-btn:hover {
+        padding-left: 100px;
+        padding-right: 100px;
+        box-shadow: inset 360px 0 0 0 red;
+        transition: ease-out 0.5s;
+    
+    }
 
 
     /************** Middle Section****************/
