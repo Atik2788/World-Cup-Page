@@ -136,7 +136,7 @@ header {
     color: red;
 }
 
-/*******************   Right Card    *****************/
+/*******************   Right Card for Blogs   *****************/
 .right-card-parent {
     margin-left: 20px;
     display: grid;
@@ -185,6 +185,27 @@ header {
 .card-icon-sec p {
     font-size: 13px;
     color: #424242;
+}
+
+/************** Right Card for Upcoming Match    ******************/
+.right-card-upcoming{
+    border: 1px solid #e7e6e6;
+    border-radius: 7px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.upcoming-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vw;
+}
+
+.upcoming-img img{
+    width: 40%;
 }
 
 
