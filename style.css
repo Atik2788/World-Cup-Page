@@ -37,11 +37,20 @@ header {
     color: white;
 }
 
-.header-title-sec p {
+.header-title-sec p{
     font-size: 16px;
     line-height: 26px;
     margin-bottom: 30px;
     color: #FFFFFF;
+}
+
+.for-ellips{
+    margin: 0 auto;
+    display: none;
+    width: 500px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .title-btn {
@@ -182,6 +191,11 @@ header {
 
 /***************     Footer Section     ***************/
 /***************     Footer Section     ***************/
+
+footer {
+    margin-top: 130px;
+}
+
 footer {
     width: 100%;
     height: 350px;
@@ -230,7 +244,6 @@ footer hr {
 
 
 
-
 /* This will be change ++++++++++++++++++*/
 /* This will be change ++++++++++++++++++*/
 .blog {
@@ -246,9 +259,7 @@ footer hr {
 /**********************************/
 /**********************************/
 .view-for-tablet {
-
     display: none;
-
     margin: 0 auto;
     text-align: center;
     margin-top: 50px;
@@ -277,22 +288,18 @@ footer hr {
     font-size: 20px;
     color: white;
 }
-
-footer {
-    margin-top: 130px;
-}
-
 /* This will be change ++++++++++++++++++*/
 /* This will be change ++++++++++++++++++*/
 
 
 
+
+
 /***************     Media     ***************/
 /***************     Media     ***************/
 /***************     Media     ***************/
 
 
-/************** For Mobile **************/
 /************** For Mobile **************/
 
 @media only screen and (max-width:767px) {
@@ -310,8 +317,17 @@ footer {
     }
 
     .header-title-sec h1 {
-        font-size: 55px;
+        font-size: 70px;
     }
+
+    .header-para{
+        display: none;
+    }
+    .for-ellips{
+        display: block;
+    }
+
+
 
     /************** Middle Section****************/
 
@@ -346,7 +362,7 @@ footer {
     footer {
         width: 100%;
         margin-top: 30px;
-        height: 490px;
+        height: 480px;
         background-color: #161616;
         text-align: center;
         font-family: 'Mukta', sans-serif;
@@ -364,6 +380,7 @@ footer {
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;
     }
+    
 }
 
 
@@ -437,7 +454,7 @@ footer {
     footer {
         width: 100%;
         margin-top: 30px;
-        height: 320px;
+        height: 310px;
         background-color: #161616;
         text-align: center;
         font-family: 'Mukta', sans-serif;
