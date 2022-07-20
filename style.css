@@ -281,7 +281,82 @@ footer hr {
 
 
 /************** For Mobile **************/
+/************** For Mobile **************/
+
 @media only screen and (max-width:767px) {
+
+    /************* Header Section ********************/
+    main {
+        width: 95%;
+    }
+    header {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+        margin-top: 15px;
+    }
+    .header-title-sec h1 {
+        font-size: 55px;
+    }
+
+    /************** Middle Section****************/
+    
+    .middle-sec {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .left-card-box {
+        height: 180px;
+        background-color: rgba(17, 102, 17, 0);
+        margin-bottom: 30px;
+    }
+
+    .card-button {
+        border: 1px solid rgb(219, 219, 219);
+        border-radius: 7px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right-card-parent {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+
+    /************** Footer Section****************/
+    footer {
+        width: 100%;
+        margin-top: 30px;
+        height: 490px;
+        background-color: #161616;
+        text-align: center;
+        font-family: 'Mukta', sans-serif;
+    }
+    footer h1 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .footer-icon {
+        margin: 20px auto 30px auto;
+        width: 85%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+}
+
+
+
+/************** For Tablet **************/
+/************** For Tablet **************/
+
+@media only screen and (min-width:767px) and (max-width:1023) {
 
     /************* Header Section ********************/
     main {
