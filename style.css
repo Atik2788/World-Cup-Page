@@ -245,15 +245,15 @@ color:red;
     margin: 7px auto;
     align-items: center;
     justify-content: center;
+    background-color: #48f3eaaf;
 }
 .gorup-flag img{
     width: 100%;
 }
 .gorup-flag h1{
-    background-color: #48f3eaaf;
     font-size: 25px;
-    margin-left: 3px;
     padding: 3px 10px;
+    text-align: center;
 }
 
 /***************     Footer Section     ***************/
@@ -386,6 +386,7 @@ footer hr {
     }
 
     .for-ellips {
+        width: 300px;
         display: block;
     }
 
