@@ -313,10 +313,6 @@ footer {
         font-size: 55px;
     }
 
-    .header-title-sec p {
-        text-overflow: ellipsis;
-    }
-
     /************** Middle Section****************/
 
     .middle-sec {
